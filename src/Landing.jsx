@@ -86,6 +86,46 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      {/* Images scroll1 */}
+      <div className='p-4'>
+        <div className='flex flex-wrap gap-4'>
+          {/* Box 1 */}
+          <div className='flex-shrink-0 h-40 md:h-[400px] w-full sm:w-1/2 md:w-1/6  overflow-hidden'>
+            <img
+              src={Dress}
+              alt='Box 1'
+              className='w-full h-full object-cover'
+            />
+          </div>
+
+          {/* Box 2: Reduced width on larger screens */}
+          <div className='flex-shrink-0 h-40 md:h-[400px] w-full sm:w-1/2 md:w-[650px]  overflow-hidden'>
+            <img
+              src={Dress1}
+              alt='Box 2'
+              className='w-full h-full object-cover'
+            />
+          </div>
+
+          {/* Box 3 */}
+          <div className='flex-shrink-0 h-40 md:h-[400px] w-full sm:w-1/2 md:w-1/6  overflow-hidden'>
+            <img
+              src={Dress2}
+              alt='Box 3'
+              className='w-full h-full object-cover'
+            />
+          </div>
+
+          {/* Box 4 */}
+          <div className='flex-shrink-0 h-40 md:h-[400px] w-full sm:w-1/2 md:w-1/6  overflow-hidden'>
+            <img
+              src={Dress3}
+              alt='Box 4'
+              className='w-full h-full object-cover'
+            />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
