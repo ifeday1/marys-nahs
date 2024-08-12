@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { Link, animateScroll as scroll } from "react-scroll";
-import "./Navbar.css";
-import "aos/dist/aos.css";
-import AOS from "aos";
+import React, { useState, useEffect } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link, animateScroll as scroll } from 'react-scroll';
+import './Navbar.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import Logo from '../assests/logo.png';
 
 const Navbar = () => {
   //useEffect
@@ -23,82 +24,80 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="header">
-        <nav className="navbar">
+      <div className='header'>
+        <nav className='navbar'>
           <Link
-            to="/"
+            to='/'
             spy={true}
             smooth={true}
             offset={50}
             duration={500}
-            className="logo"
+            className='logo'
           >
-            <h1 alt="Logo" onClick={ScrollToTop}>
-              ShutterVerse Creations
-            </h1>
+            <div className=' w-20' onClick={ScrollToTop}>
+              <img src={Logo} alt='logo' />
+            </div>
           </Link>
-          <div className="hamburger" onClick={handleClick}>
+          <div className='hamburger' onClick={handleClick}>
             {click ? (
-              <FaTimes size={30} style={{ color: "#ffffff" }} />
+              <FaTimes size={30} style={{ color: '#00000' }} />
             ) : (
-              <FaBars size={30} style={{ color: "#ffffff" }} />
+              <FaBars size={30} style={{ color: '#00000' }} />
             )}
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             {/* <li className='nav-item'>
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li> */}
-            <li className="nav-item">
+            <li className='nav-item'>
               <Link
-                to="about"
+                to='about'
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
-                ABOUT ME
+                Home
               </Link>
             </li>
-            <li className="nav-item">
+            <li className='nav-item'>
               <Link
-                to="service"
+                to='service'
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
-                SERVICES
+                Catalog
               </Link>
             </li>
-            <li className="nav-item">
+            <li className='nav-item'>
               <Link
-                to="why"
+                to='why'
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}
                 onClick={closeMenu}
               >
-                WHY CHOOSE US
+                About
               </Link>
             </li>
-            <li className="nav-item">
+            <li className='nav-item'>
               <Link
-                to="contact"
+                to='contact'
                 spy={true}
                 smooth={true}
                 offset={-150}
                 duration={500}
                 onClick={closeMenu}
               >
-                CONTACT
+                Contact
               </Link>
             </li>
           </ul>
-
-         
         </nav>
       </div>
     </div>
