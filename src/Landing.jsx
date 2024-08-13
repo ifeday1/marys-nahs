@@ -15,6 +15,8 @@ import Owner from './assests/owner.png';
 import Fashion from './assests/fashion.png';
 import Fashion1 from './assests/fashion1.png';
 import Fashion2 from './assests/fashion2.png';
+import backgroundImage from './assests/BackgroundImage.svg';
+import Footer from './components/Footer';
 
 const Landing = () => {
   return (
@@ -288,36 +290,75 @@ const Landing = () => {
       </div>
 
       {/* class */}
-      <div className='p-4 bg-purple'>
+      <div className='p-4 bg-purple rounded-lg m-8 pt-10'>
+        <div class=' px-5 md:ml-20 flex justify-center text-white text-2xl md:text-4xl gap-3 mb-9'>
+          Why Choose Us?
+        </div>
         <div className='flex flex-col md:flex-row gap-4'>
           {/* Text Section 1 */}
-          <div className='flex-1 bg-blue-100 p-4 rounded-lg'>
-            <h2 className='text-lg font-bold mb-2'>Section 1</h2>
+
+          <div className='flex-1 p-4 rounded-lg  text-white '>
+            <h2 className='text-lg font-bold text-white mb-2'>
+              Exceptional Craftsmanship
+            </h2>
             <p>
-              This is the content of the first section. It will adjust based on
-              the screen size.
+              My passion for precision and attention to details shine through in
+              every stitch. With years of experience and a dedication to
+              traditional tailoring techniques.
             </p>
           </div>
 
           {/* Text Section 2 */}
-          <div className='flex-1 bg-green-100 p-4 rounded-lg'>
-            <h2 className='text-lg font-bold mb-2'>Section 2</h2>
+          <div className='flex-1 text-white p-4 rounded-lg'>
+            <h2 className='text-lg font-bold mb-2'>Personalized Service</h2>
             <p>
-              This is the content of the second section. It will adjust based on
-              the screen size.
+              I work closely with my customers to understand your preferences,
+              offering personalized advice and guidance to create bespoke pieces
+              that reflect your personality and flatter your silhouette.
             </p>
           </div>
 
           {/* Text Section 3 */}
-          <div className='flex-1 bg-yellow-100 p-4 rounded-lg'>
-            <h2 className='text-lg font-bold mb-2'>Section 3</h2>
+          <div className='flex-1 text-white p-4 rounded-lg'>
+            <h2 className='text-lg font-bold mb-2'>Quality Materials</h2>
             <p>
-              This is the content of the third section. It will adjust based on
-              the screen size.
+              I believe that the foundation of a well-made garment lies in the
+              quality of its materials. That's why i source only the finest
+              fabrics and materials for our creations, ensuring not only a
+              luxurious look and feel but also durability and longevity.
             </p>
           </div>
         </div>
       </div>
+
+      <div
+        className='min-h-screen bg-cover bg-center py-10 px-10'
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
+        <div className='flex flex-col md:flex-row h-full'>
+          {/* White section on the left side */}
+          <div className='bg-white w-full md:w-[260px] p-8 flex flex-col justify-center items-start rounded-xl'>
+            <h1 className='text-3xl font-semibold mb-4'>Get in Touch</h1>
+            <p className='text-lg'>Contact us</p>
+            <p className='text-lg bg-slate-200 px-3 py-3 rounded-3xl outline-2'>
+              06605896341
+            </p>
+            <br></br>
+            <p className='text-lg'>Monday: 9:00-13:00</p>
+            <p className='text-lg'>Tuesday: 9:00-13:00</p>
+            <p className='text-lg'>Wednesday: 9:00-13:00</p>
+            <p className='text-lg'>Thursday: 9:00-13:00</p>
+            <p className='text-lg'>Friday: 9:00-13:00</p>
+            <p className='text-lg'>Saturday: 9:00-13:00</p>
+            <p className='text-lg'>Sunday: CLOSED</p>
+          </div>
+
+          {/* The rest of the background to the right will remain uncovered */}
+          <div className='flex-1'></div>
+        </div>
+      </div>
+
+      <Footer />
     </>
   );
 };
