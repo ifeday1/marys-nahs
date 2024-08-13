@@ -16,7 +16,6 @@ import Fashion from './assests/fashion.png';
 import Fashion1 from './assests/fashion1.png';
 import Fashion2 from './assests/fashion2.png';
 
-
 const Landing = () => {
   return (
     <>
@@ -285,6 +284,38 @@ const Landing = () => {
             alt='choose'
             class='w-full max-w-sm h-auto rounded-lg mb-7'
           />
+        </div>
+      </div>
+
+      {/* class */}
+      <div className='p-4 bg-purple'>
+        <div className='flex flex-col md:flex-row gap-4'>
+          {/* Text Section 1 */}
+          <div className='flex-1 bg-blue-100 p-4 rounded-lg'>
+            <h2 className='text-lg font-bold mb-2'>Section 1</h2>
+            <p>
+              This is the content of the first section. It will adjust based on
+              the screen size.
+            </p>
+          </div>
+
+          {/* Text Section 2 */}
+          <div className='flex-1 bg-green-100 p-4 rounded-lg'>
+            <h2 className='text-lg font-bold mb-2'>Section 2</h2>
+            <p>
+              This is the content of the second section. It will adjust based on
+              the screen size.
+            </p>
+          </div>
+
+          {/* Text Section 3 */}
+          <div className='flex-1 bg-yellow-100 p-4 rounded-lg'>
+            <h2 className='text-lg font-bold mb-2'>Section 3</h2>
+            <p>
+              This is the content of the third section. It will adjust based on
+              the screen size.
+            </p>
+          </div>
         </div>
       </div>
     </>
