@@ -1,17 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-800 text-white py-8'>
-      <div className='container mx-auto flex flex-wrap justify-between gap-8'>
+    <footer className='bg-white text-black m-4 py-8'>
+      <div className='container mx-auto flex flex-col md:flex-row flex-wrap justify-between gap-8'>
         {/* About Section */}
         <div className='flex-1 min-w-[200px]'>
-          <h3 className='text-lg font-bold mb-4'>About Us</h3>
-          <p className='text-sm'>
-            We are a leading e-commerce platform providing a seamless shopping
-            experience. Our mission is to deliver quality products and excellent
-            customer service.
-          </p>
+          <h3 className='text-lg font-bold mb-4'>
+            Mary’s Nähstube Wels-Änderungsschneiderei Mode.
+          </h3>
+          <p className='text-sm'>Eferdinger Straße, 3, 4600, Wels.</p>
         </div>
 
         {/* Navigation Links */}
@@ -25,12 +23,12 @@ const Footer = () => {
             </li>
             <li>
               <a href='#shop' className='text-sm hover:underline'>
-                Shop
+                Catalog
               </a>
             </li>
             <li>
               <a href='#about' className='text-sm hover:underline'>
-                About Us
+                About
               </a>
             </li>
             <li>
@@ -43,15 +41,13 @@ const Footer = () => {
 
         {/* Contact Information */}
         <div className='flex-1 min-w-[200px]'>
-          <h3 className='text-lg font-bold mb-4'>Contact Us</h3>
-          <p className='text-sm'>Email: support@example.com</p>
-          <p className='text-sm'>Phone: +123 456 7890</p>
-          <p className='text-sm'>Address: 123 Main Street, Anytown, USA</p>
+          <h3 className='text-lg font-bold mb-4'>Help</h3>
+          <p className='text-sm'>Privacy Policies</p>
         </div>
 
         {/* Social Media Links */}
         <div className='flex-1 min-w-[200px]'>
-          <h3 className='text-lg font-bold mb-4'>Follow Us</h3>
+          <h3 className='text-lg font-bold mb-4'>Newsletter</h3>
           <div className='flex space-x-4'>
             <a href='#facebook' className='text-sm hover:underline'>
               Facebook
@@ -63,13 +59,12 @@ const Footer = () => {
               Instagram
             </a>
             <a href='#linkedin' className='text-sm hover:underline'>
-              LinkedIn
             </a>
           </div>
         </div>
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;
