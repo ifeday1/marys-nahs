@@ -48,20 +48,25 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className='flex-1 min-w-[200px]'>
           <h3 className='text-lg font-bold mb-4'>Newsletter</h3>
-          <div className='flex space-x-4'>
-            <a href='#facebook' className='text-sm hover:underline'>
-              Facebook
-            </a>
-            <a href='#twitter' className='text-sm hover:underline'>
-              Twitter
-            </a>
-            <a href='#instagram' className='text-sm hover:underline'>
-              Instagram
-            </a>
-            <a href='#linkedin' className='text-sm hover:underline'>
-            </a>
+          <div className='flex flex-col md:flex-row items-center justify-center gap-4'>
+            <input
+              type='email'
+              placeholder='Enter your email'
+              className='p-2 rounded-lg border border-gray-300 w-full md:w-auto flex-1'
+            />
+            <button className='bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700'>
+              Subscribe
+            </button>
           </div>
         </div>
+      </div>
+
+      <div className='text-center py-4'>
+        {/* Horizontal Line */}
+        <hr className='border-gray-300 my-4 mx-10' />
+
+        {/* Footer Text */}
+        <p className='text-sm text-gray-600'>© 2024. All rights reserved.</p>
       </div>
     </footer>
   );
