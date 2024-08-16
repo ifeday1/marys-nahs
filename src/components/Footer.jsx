@@ -65,7 +65,7 @@ const Footer = () => {
         {/* Horizontal Line */}
         <hr className='border-gray-300 my-4 mx-10' />
 
-        {/* Footer Text */}
+    
         <p className='text-sm text-gray-600'>© 2024. All rights reserved.</p>
       </div>
     </footer>
