@@ -39,7 +39,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Information */}
+        
         <div className='flex-1 min-w-[200px]'>
           <h3 className='text-lg font-bold mb-4'>Help</h3>
           <p className='text-sm'>Privacy Policies</p>
