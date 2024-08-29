@@ -45,7 +45,7 @@ const Footer = () => {
           <p className='text-sm'>Privacy Policies</p>
         </div>
 
-        {/* Social Media Links */}
+       
         <div className='flex-1 min-w-[200px]'>
           <h3 className='text-lg font-bold mb-4'>Newsletter</h3>
           <div className='flex flex-col md:flex-row items-center justify-center gap-4'>
