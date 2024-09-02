@@ -39,13 +39,11 @@ const Footer = () => {
           </ul>
         </div>
 
-        
         <div className='flex-1 min-w-[200px]'>
           <h3 className='text-lg font-bold mb-4'>Help</h3>
           <p className='text-sm'>Privacy Policies</p>
         </div>
 
-       
         <div className='flex-1 min-w-[200px]'>
           <h3 className='text-lg font-bold mb-4'>Newsletter</h3>
           <div className='flex flex-col md:flex-row items-center justify-center gap-4'>
@@ -62,10 +60,8 @@ const Footer = () => {
       </div>
 
       <div className='text-center py-4'>
-        {/* Horizontal Line */}
         <hr className='border-gray-300 my-4 mx-10' />
 
-    
         <p className='text-sm text-gray-600'>© 2024. All rights reserved.</p>
       </div>
     </footer>
