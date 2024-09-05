@@ -12,7 +12,6 @@ const Footer = () => {
           <p className='text-sm'>Eferdinger Straße, 3, 4600, Wels.</p>
         </div>
 
-        {/* Navigation Links */}
         <div className='flex-1 min-w-[200px]'>
           <h3 className='text-lg font-bold mb-4'>Quick Links</h3>
           <ul className='space-y-2'>
