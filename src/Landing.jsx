@@ -336,7 +336,6 @@ const Landing = () => {
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className='flex flex-col md:flex-row h-full'>
-          {/* White section on the left side */}
           <div className='bg-white w-full md:w-[260px] p-8 flex flex-col justify-center items-start rounded-xl'>
             <h1 className='text-3xl font-semibold mb-4'>Get in Touch</h1>
             <p className='text-lg'>Contact us</p>
