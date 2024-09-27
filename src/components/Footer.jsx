@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <footer className='bg-white text-black m-4 py-8'>
       <div className='container mx-auto flex flex-col md:flex-row flex-wrap justify-between gap-8'>
-        {/* About Section */}
         <div className='flex-1 min-w-[200px]'>
           <h3 className='text-lg font-bold mb-4'>
             Mary’s Nähstube Wels-Änderungsschneiderei Mode.
