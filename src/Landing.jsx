@@ -182,7 +182,6 @@ const Landing = () => {
         </div>
       </div>
 
-      {/* fashion1 */}
       <div class='flex flex-wrap justify-around items-center mt-12 bg-gray-300 m-8 rounded-lg'>
         <div class='flex flex-col justify-center items-left m-4 '>
           <div className='flex flex-col max-w-full bg-black w-[35px] relative'>
