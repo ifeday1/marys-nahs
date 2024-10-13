@@ -317,7 +317,7 @@ const Landing = () => {
             </p>
           </div>
 
-          {/* Text Section 3 */}
+     
           <div className='flex-1 text-white p-4 rounded-lg'>
             <h2 className='text-lg font-bold mb-2'>Quality Materials</h2>
             <p>
