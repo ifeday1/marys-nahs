@@ -117,7 +117,7 @@ const Landing = () => {
             />
           </div>
 
-          {/* Box 3 */}
+    
           <div className='flex-shrink-0 h-40 md:h-[400px] w-full sm:w-1/2 md:w-1/6  overflow-hidden'>
             <img
               src={Dress6}
