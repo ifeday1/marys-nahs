@@ -127,7 +127,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      {/* Images scroll3 */}
+  
       <div className='p-4'>
         <div className='flex flex-wrap gap-4'>
           <div className='flex-shrink-0 h-40 md:h-[400px] w-full sm:w-1/2 md:w-[900px]  overflow-hidden'>
