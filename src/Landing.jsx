@@ -117,7 +117,6 @@ const Landing = () => {
             />
           </div>
 
-    
           <div className='flex-shrink-0 h-40 md:h-[400px] w-full sm:w-1/2 md:w-1/6  overflow-hidden'>
             <img
               src={Dress6}
@@ -127,7 +126,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-  
+
       <div className='p-4'>
         <div className='flex flex-wrap gap-4'>
           <div className='flex-shrink-0 h-40 md:h-[400px] w-full sm:w-1/2 md:w-[900px]  overflow-hidden'>
@@ -148,7 +147,6 @@ const Landing = () => {
         </div>
       </div>
 
-      {/* owner */}
       <div class='flex flex-wrap justify-around items-center mt-12'>
         <div class='flex justify-center items-center m-4'>
           <img
@@ -317,7 +315,6 @@ const Landing = () => {
             </p>
           </div>
 
-     
           <div className='flex-1 text-white p-4 rounded-lg'>
             <h2 className='text-lg font-bold mb-2'>Quality Materials</h2>
             <p>
